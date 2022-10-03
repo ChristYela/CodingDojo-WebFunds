@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top {
+    background-color: lightgray;
+    height: 120px;
+    width: 1100px;
+    border-top: 5px solid whitesmoke;
+    color: black;
+    text-align: left;
+    display:flex;
+    margin-left: 80px;
+    padding: 5px;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.h1, .h2, .h3, .h4 {
+    text-align: left;
+    padding: 5%;
+    }
+
+
+.search {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 51%;
+    margin: 0 180px;
+    text-align: left;
+    display: flex;
+}
+
+.italic {font-style: italic;} 
+
+.def-1, .def-2 {
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    text-align: left;
+    height: 200px;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+    padding: 5px;
+    flex-direction: row;
+    
+    }
+
+    .p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: auto;
+    }
+
+    .add-def {
+        background-color: white;
+        border: 2px solid black;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        overflow: hidden;
+        display: flex;
+        text-align: left;
+        height: 150px;
+        width: 475px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 60px;
+        padding: 5px;
+        flex-direction: column;
+    }
+
+.btn-blue{
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.btn-yellow{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.btn-green{
+    background-color: greenyellow;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+
+.defs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+    justify-content: space-between;
+}
+
+

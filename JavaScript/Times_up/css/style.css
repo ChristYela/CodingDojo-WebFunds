@@ -1,0 +1,46 @@
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+#face {
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid slateblue;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+}
+
+#hour {
+    background-color: darkcyan;
+    height: 100px;
+    width: 8px;
+}
+
+#minutes {
+    background-color: lightseagreen;
+    height: 120px;
+    width: 4px;
+}
+
+#seconds {
+    background-color: lightcoral;
+    height: 130px;
+    width: 2px;
+}

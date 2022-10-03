@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- top navigation -->
+        <div class="top"> 
+            <div class="nav-container">
+                <h1>Dojonary</h1>
+                <input type="text" placeholder="Search" name="query" class="search">
+                <button id="btn" class="btn-blue" onclick=cambiar_texto(this)>Login</button>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="flex container main">
+
+            <!-- 2/3 width column -->
+            <div class="col-1">
+                <div class="row-1"> 
+                    <div class="def-1">
+                        <div class="defs">
+                            <h1>ninja</h1>
+                            <h3 class="italic">noun</h3>
+                            <h4>Plural:<span class="italic"> ninjas</span></h4>
+                            <button id="btn-def1" class="btn-yellow" onclick="click_on()">13 likes</button>
+                        </div>
+                        <p><h3>A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h3></p>
+                    </div>
+                </div>
+                
+                    <div class="row-2">
+                        <div class="def-2">
+                            <div class="defs">
+                            <h1>ninja</h1>
+                            <h3 class="italic">noun</h3>                           
+                            <h4>Plural:<span class="italic"> ninjas</span></h4>
+                            <button id="btn-def2" class="btn-yellow" onclick="click_on()">37 likes</button>                            
+                            </div>
+                            <p><h3>A <a href="#">programmer</a> who breaks <br> 
+                                down problems with <a href="#">zen</a>-like <br>
+                                focus</h3>
+                            </p>
+                            
+                            </div>
+    
+                    </div>
+                
+            
+                
+    
+        
+    
+            </div>
+            
+            <!-- 1/3 width column -->
+        <div class="col-2">
+            <div class="add-def">
+                <h2>Dojonary is <br> defined by <strong>YOU</strong></h2>
+                <br>
+                <button class="btn-green" onclick="elimina(this)">Add Definition</button> 
+                <br>
+                <br>
+            </div>
+            
+        </div>
+
+        </div>
+        
+    
+
+<script src="js/script.js"></script>
+</body>
+</html>
