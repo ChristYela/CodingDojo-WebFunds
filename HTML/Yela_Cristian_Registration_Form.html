@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <p>
+            <form action="/process" method="post">
+                <div>
+                    <label>First Name: * </label>
+                    <input type="text" name="First Name" 
+                    placeholder="Your first name..." >
+                </div>
+                    <br>
+                <div>
+                    <label>Last Name: * </label>
+                    <input type="text" name="Last Name" 
+                    placeholder="Your last name..." >
+                </div>
+                    <br>
+                <div>
+                    <label>Email Address: * </label>
+                    <input type="text" name="email" 
+                    placeholder="Your email..." >
+                </div>
+                    <br>
+                    <div>
+                        <label>Password: *</label>
+                        <input type="password" name="password"
+                        placeholder="Your password...">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Confirm Password: *</label>
+                        <input type="password" name="password"
+                        placeholder="Confirm your password...">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Birthday:</label>    
+                        <input type="date" name="dob"
+                        placeholder="mm/dd/yy">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender Identity:</label>
+                        <br>
+                        <br>
+                        <input type="radio" name="font">
+                        <label>Male</label>
+                        <input type="radio" name="font">
+                        <label>Female</label>
+                        <input type="radio" name="font">
+                        <label>Non-binary</label>
+                        <input type="radio" name="font">
+                        <label>I prefer not to answer</label>
+                    </div>
+                    <br>    
+                    <div>
+                        <label>A short description about myself:</label>
+                        <br>
+                        <textarea name="comment" cols="40" rows="5"></textarea>
+                    </div>
+                    <br>
+                        <label>Favorite Language:</label>
+                            <select name="Language">
+                            <option>Javascript</option>
+                            <option>Phyton</option>
+                            <option>Java</option>
+                            <option>C</option>
+                            <option>C++</option>
+                            <option>C#</option>
+                            <option>PHP</option>
+                            </select>
+                        <br>
+                        <br>
+                    <div>
+                    <input type="checkbox" name="offers" 
+                    id="offers" checked >
+                    <label for="offers">Yes, I would like to receive periodic email updates</label>
+                    </div>
+                    <br>
+                    <input type="submit" value="Create Account" >
+            </form>
+            <br>
+                <h4>* Indicates a required field</h4>
+        </p>
+    </body>
+</html>
